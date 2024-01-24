@@ -150,6 +150,6 @@ forest_or <- tidy_mod %>%
   theme(text = element_text(size = 17)) 
 
 ggsave(plot = forest_or, filename = here('Output', 'fig1.png'), dpi = 600)
-#### fit a model to this data and get OR
+
 
 
